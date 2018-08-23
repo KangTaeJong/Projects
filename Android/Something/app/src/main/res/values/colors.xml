@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">@color/AppBackground</color>
+
+    <color name="color1">#9dc1b5</color>
+    <color name="color2">#6c9fad</color>
+    <color name="color3">#716a93</color>
+    <color name="color4">#332235</color>
+    <color name="color5">#efe8be</color>
+
+    <color name="AppBackground">#6c9fad</color>
+    <color name="TabBackground">#FFFFFF</color>
+    <color name="FloatingActionButtonBackground">#332235</color>
+    <color name="SomethingBackground">#efe8be</color>
+
+    <color name="ExplainTextColor">#2f2f2f</color>
+</resources>

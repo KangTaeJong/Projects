@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Margin_L">8dp</dimen>
+    <dimen name="Margin_M">4dp</dimen>
+    <dimen name="Margin_S">2dp</dimen>
+
+    <dimen name="Padding_L">8dp</dimen>
+    <dimen name="Padding_M">4dp</dimen>
+    <dimen name="Padding_S">2dp</dimen>
+</resources>
