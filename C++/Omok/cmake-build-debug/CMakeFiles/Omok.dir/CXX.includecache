@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/Desktop/Projects/C++/Omok/Intent.h
+
+C:/Users/Admin/Desktop/Projects/C++/Omok/OmokRule.cpp
+OmokRule.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/OmokRule.h
+iostream
+-
+windows.h
+-
+
+C:/Users/Admin/Desktop/Projects/C++/Omok/OmokRule.h
+Intent.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/Intent.h
+stack
+-
+string
+-
+
