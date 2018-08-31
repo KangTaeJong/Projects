@@ -74,13 +74,17 @@ void Omok::goStart() {
             case Confirm:
                 put();
                 break;
+            case Back:
+                back();
+                break;
+            case Quit:
+                return;
         }
     }
 }
 
 void Omok::goRule() {
     io->drawRule(rule->getExplains());
-    io->read();
 }
 
 void Omok::move(short x, short y) {
@@ -123,7 +127,17 @@ void Omok::put() {
 
         if(rule->isThereWinner()) {
             isRun = false;
-            io->read();
+            io->message("Win");
         }
+    }
+    else {
+        io->message("Invalid");
+    }
+}
+
+void Omok::back() {
+    if(rule->back()) {
+        io->move(rule->getX(), rule->getY());
+        io->drawBoardLine();
     }
 }

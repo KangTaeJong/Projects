@@ -18,7 +18,7 @@ protected:
     short cursorX, cursorY;
     Stone turn;
     Stone board[OMOK_SIZE][OMOK_SIZE];
-    stack<pair<int, int>> back;
+    stack<pair<int, int>> stack;
 
     bool isThereStone();
     bool is6Mok(Stone player);
@@ -28,11 +28,13 @@ public:
     virtual void init();
     virtual string getExplains() = 0;
     virtual bool put() = 0;
-
+    virtual bool back() = 0;
     bool isThereWinner();
 
     Stone& getTurn();
 
+    short getX();
+    short getY();
     void move(short x, short y);
     void moveUp();
     void moveDown();

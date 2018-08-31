@@ -12,28 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07c4553a-d35f-40b1-b553-8bc4b1f25fbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Omok/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Omok/Console.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Omok/Console.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Omok/IOHandler.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Omok/IOHandler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Omok/Intent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Omok/Intent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Omok/Omok.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Omok/Omok.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hello_World.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hello_World.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hello_World.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hello_World.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hello_World.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hello_World.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hello_World.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Hello_World.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hello_World.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hello_World.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Omok/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,13 +26,13 @@
     <session id="133082270">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -135,7 +114,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Omok" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -183,17 +162,17 @@
       <workItem from="1535264310477" duration="47000" />
       <workItem from="1535264385253" duration="13000" />
       <workItem from="1535266949191" duration="624000" />
+      <workItem from="1535537251647" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="929000" />
+    <option name="totallyTimeSpent" value="938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="20" width="1400" height="776" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26567164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27014926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

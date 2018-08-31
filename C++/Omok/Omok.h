@@ -24,6 +24,7 @@ public:
     void moveLeft();
     void moveRight();
     void put();
+    void back();
 };
 
 

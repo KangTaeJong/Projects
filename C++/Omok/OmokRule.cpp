@@ -14,9 +14,21 @@ void OmokRule::init() {
         }
     }
 
-    while(!back.empty()) {
-        back.pop();
+    while(!stack.empty()) {
+        stack.pop();
     }
+}
+
+bool OmokRule::back() {
+    pair<short, short> pos = stack.top();
+    stack.pop();
+
+    cursorX = pos.first;
+    cursorY = pos.second;
+
+    turn = (Stone)((turn + 1)%2);
+    board[cursorX][cursorY] = Blank;
+    return true;
 }
 
 bool OmokRule::isThereWinner() {
@@ -210,6 +222,14 @@ bool OmokRule::is44(Stone player) {
 
 Stone & OmokRule::getTurn() {
     return turn;
+}
+
+short OmokRule::getX() {
+    return cursorX;
+}
+
+short OmokRule::getY() {
+    return cursorY;
 }
 
 void OmokRule::move(short x, short y) {

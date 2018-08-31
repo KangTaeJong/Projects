@@ -10,6 +10,8 @@ public:
     string getExplains() override;
 
     bool put() override;
+
+    bool back() override;
 };
 
 

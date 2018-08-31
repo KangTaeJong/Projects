@@ -22,10 +22,15 @@ constexpr int KEY_D = 'D';
 constexpr int KEY_d = 'd';
 constexpr int KEY_SPACE = 32;
 constexpr int KEY_ENTER = 13;
+constexpr int KEY_Z = 'Z';
+constexpr int KEY_z = 'z';
+constexpr int KEY_Q = 'Q';
+constexpr int KEY_q = 'q';
 
-constexpr pair<short, short> StartPosition = {9, 17};
-constexpr pair<short, short> RulePosition = {9, 18};
-constexpr pair<short, short> ExitPosition = {9, 19};
+
+constexpr pair<short, short> StartPosition = {5, 16};
+constexpr pair<short, short> RulePosition = {5, 17};
+constexpr pair<short, short> ExitPosition = {5, 18};
 
 enum Color {
     Black, Blue, Green, Cyan, Red, Magenta, Brown, LightGray, DarkGray, LightBlue, LightGreen, LightCyan, LightRed, LightMagenta, Yellow, White
@@ -33,12 +38,15 @@ enum Color {
 
 class Console final : public OmokIO {
 private:
+    short marginTop = 1, margintLeft = 8;
     HANDLE handle;
 
     void clear();
     void showCursor(bool flag);
     void setColor(Color background, Color font);
 public:
+    void message(string msg) override;
+
     Key read() override;
 
     void moveCursor(short x, short y) override;

@@ -23,10 +23,14 @@ bool Renju::put() {
 
     board[cursorX][cursorY] = turn;
     turn = (Stone)((turn + 1)%2);
-    back.push(make_pair(cursorX, cursorY));
+    stack.push(make_pair(cursorX, cursorY));
     return true;
 }
 
 string Renju::getExplains() {
     return "Hi";
+}
+
+bool Renju::back() {
+    return OmokRule::back();
 }

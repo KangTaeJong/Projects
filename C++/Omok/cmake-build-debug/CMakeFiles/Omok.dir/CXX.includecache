@@ -6,14 +6,32 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Admin/Desktop/Projects/C++/Omok/Intent.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/Console.cpp
+Console.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/Console.h
 
-C:/Users/Admin/Desktop/Projects/C++/Omok/OmokRule.cpp
-OmokRule.h
-C:/Users/Admin/Desktop/Projects/C++/Omok/OmokRule.h
-iostream
+C:/Users/Admin/Desktop/Projects/C++/Omok/Console.h
+OmokIO.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/OmokIO.h
+conio.h
 -
 windows.h
+-
+iostream
+-
+
+C:/Users/Admin/Desktop/Projects/C++/Omok/Intent.h
+
+C:/Users/Admin/Desktop/Projects/C++/Omok/Omok.h
+OmokIO.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/OmokIO.h
+OmokRule.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/OmokRule.h
+
+C:/Users/Admin/Desktop/Projects/C++/Omok/OmokIO.h
+Intent.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/Intent.h
+string
 -
 
 C:/Users/Admin/Desktop/Projects/C++/Omok/OmokRule.h
@@ -23,4 +41,16 @@ stack
 -
 string
 -
+
+C:/Users/Admin/Desktop/Projects/C++/Omok/Renju.h
+OmokRule.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/OmokRule.h
+
+C:/Users/Admin/Desktop/Projects/C++/Omok/main.cpp
+Console.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/Console.h
+Renju.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/Renju.h
+Omok.h
+C:/Users/Admin/Desktop/Projects/C++/Omok/Omok.h
 

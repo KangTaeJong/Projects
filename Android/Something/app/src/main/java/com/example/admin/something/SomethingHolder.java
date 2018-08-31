@@ -40,10 +40,6 @@ public class SomethingHolder extends RecyclerView.ViewHolder implements View.OnC
     public void init(Something something) {
         this.something = something;
 
-        if(something.isAnnounce()) {
-            layout.setBackgroundColor(0xFFFFFFFF);
-        }
-
         if(something.isNoTerm()) {
             term.setVisibility(View.GONE);
         }

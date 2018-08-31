@@ -34,6 +34,12 @@ Key Console::read() {
         case KEY_D:
         case KEY_d:
             return Right;
+        case KEY_Z:
+        case KEY_z:
+            return Back;
+        case KEY_Q:
+        case KEY_q:
+            return Quit;
         default:
             return (Key)ch;
     }
@@ -77,9 +83,9 @@ void Console::drawIntro() {
     cout << "　□□□□□□□□□□□□□□□□□□□□□□" << "\n";
     cout << "　□□□□□□□□□□□□□□□□□□□□□□" << "\n";
     cout << "　□□□□□　　　　　　　　　　　　□□□□□" << "\n";
-    cout << "　□□□□□　　　　　시작　　　　　□□□□□" << "\n";
-    cout << "　□□□□□　　　　　방법　　　　　□□□□□" << "\n";
-    cout << "　□□□□□　　　　　종료　　　　　□□□□□" << "\n";
+    cout << "　□□□□□　　　　　Start 　　　　□□□□□" << "\n";
+    cout << "　□□□□□　　　　　Rule　　　　　□□□□□" << "\n";
+    cout << "　□□□□□　　　　　Exit　　　　　□□□□□" << "\n";
     cout << "　□□□□□　　　　　　　　　　　　□□□□□" << "\n";
     cout << "　□□□□□□□□□□□□□□□□□□□□□□" << "\n";
     cout << "　□□□□□□□□□□□□□□□□□□□□□□" << "\n";
@@ -93,7 +99,7 @@ void Console::drawIntro() {
 
 void Console::moveCursor(short x, short y) {
     OmokIO::moveCursor(x, y);
-    SetConsoleCursorPosition(handle, {(short)(2*x), y});
+    SetConsoleCursorPosition(handle, {(short)(2*x + margintLeft), (short)(y + marginTop)});
 }
 
 void Console::drawDirection(Category category) {
@@ -115,10 +121,15 @@ void Console::drawBoard() {
     setColor(Brown, Black);
     for(int i = 0;i < OMOK_SIZE;i++) {
         for(int j = 0;j < OMOK_SIZE;j++) {
-            cout << "┼";
+            moveCursor(j, i);cout << "┼";
         }
-        cout << "\n";
     }
+
+    setColor(Black, White);
+    moveCursor(0, OMOK_SIZE + 2);
+    cout << "Z : Back";
+    moveCursor(0, OMOK_SIZE + 3);
+    cout << "Q : Quit";
 
     showCursor(true);
     moveCursor(OMOK_SIZE/2, OMOK_SIZE/2);
@@ -147,9 +158,13 @@ void Console::drawWhiteStone() {
 }
 
 void Console::drawBoardLine() {
-    setColor(Brown, LightGray);
+    setColor(Brown, Black);
     cout << "┼";
     moveCursor(cursorX, cursorY);
+}
+
+void Console::message(string msg) {
+    MessageBox(NULL, msg.c_str(), "Omok", MB_OK);
 }
 
 

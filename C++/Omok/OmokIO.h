@@ -9,6 +9,7 @@ class OmokIO {
 protected:
     short cursorX, cursorY;
 public:
+    virtual void message(string msg) = 0;
     virtual Key read() = 0;
     virtual void moveCursor(short x, short y) = 0;
     virtual void init();
