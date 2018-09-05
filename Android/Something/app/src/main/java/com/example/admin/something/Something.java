@@ -7,13 +7,14 @@ import java.io.Serializable;
 public class Something implements Serializable, Comparable<Something> {
     public static final long ANNOUNCE = 1 << 0;
     public static final long NO_TERM = 1 << 1;
+
     private long id, bit;
     private String start, end, title, explains;
 
     public Something() {
         id = -1;
         bit = 0;
-        start = end = TimeHandler.systemToClient(System.currentTimeMillis());
+        start = end = Database.systemToClient(System.currentTimeMillis());
         title = "Hello World";
         explains = "Tab the Something";
     }
@@ -41,27 +42,26 @@ public class Something implements Serializable, Comparable<Something> {
 
     @Override
     public int compareTo(@NonNull Something something) {
+        if(this.isNoTerm() && !something.isNoTerm()) {
+            return -1;
+        }
+        else if (!this.isNoTerm() && something.isNoTerm()){
+            return 1;
+        }
+
         if(this.isAnnounce() && !something.isAnnounce()) {
             return -1;
         }
         else if(!this.isAnnounce() && something.isAnnounce()) {
             return 1;
         }
-        else if(this.isAnnounce() && something.isAnnounce()) {
-            if(this.isNoTerm() && !something.isNoTerm()) {
-                return -1;
-            }
-            else {
-                return 1;
-            }
-        }
 
-        long startTime = TimeHandler.clientToSystem(start);
-        long otherStartTime = TimeHandler.clientToSystem(something.start);
+        long startTime = Database.clientToSystem(start);
+        long otherStartTime = Database.clientToSystem(something.start);
         if(startTime != otherStartTime) return Long.compare(startTime, otherStartTime);
 
-        long endTime = TimeHandler.clientToSystem(end);
-        long otherEndTime = TimeHandler.clientToSystem(something.end);
+        long endTime = Database.clientToSystem(end);
+        long otherEndTime = Database.clientToSystem(something.end);
         if(endTime != otherEndTime) return Long.compare(endTime, otherEndTime);
 
         if(!title.equals(something.title)) return title.compareTo(something.title);

@@ -20,7 +20,7 @@ public class MyReceiver extends BroadcastReceiver {
             count = cursor.getInt(cursor.getColumnIndex("N"));
         }
 
-        if(preferences.getBoolean(Other.Auto_Start.name(), false) && count > 0) {
+        if(preferences.getBoolean(OtherFragment.Enums.Auto_Run.name(), true) && count > 0) {
             context.startActivity(new Intent(context, MainActivity.class));
         }
 

@@ -11,9 +11,6 @@
     <color name="color5">#efe8be</color>
 
     <color name="AppBackground">#6c9fad</color>
-    <color name="TabBackground">#FFFFFF</color>
-    <color name="FloatingActionButtonBackground">#332235</color>
-    <color name="SomethingBackground">#efe8be</color>
-
-    <color name="ExplainTextColor">#2f2f2f</color>
+    <color name="FloatingActionButton">#716a93</color>
+    <color name="SomethingBackground">#bdddec</color>
 </resources>

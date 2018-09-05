@@ -21,22 +21,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddOrModifySomethingActivity" />
+        <activity
+            android:name=".AddOrModifySomethingActivity"
+            android:launchMode="singleTop" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
 
         <receiver
             android:name=".MyReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
-                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
         </receiver>
-
-        <service
-            android:name=".MyService"
-            android:enabled="true"
-            android:exported="true"></service>
     </application>
 
 </manifest>

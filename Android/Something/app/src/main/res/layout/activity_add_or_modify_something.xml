@@ -56,7 +56,7 @@
             android:id="@+id/NoTermLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/Margin_L"
+            android:layout_margin="8dp"
             android:background="@android:color/white">
 
             <TextView
@@ -91,15 +91,19 @@
         <android.support.constraint.ConstraintLayout
             android:id="@+id/StartLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/white">
 
             <TextView
                 android:id="@+id/Start"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/Margin_L"
-                android:background="@android:color/white"
-                android:padding="@dimen/Padding_L"
+                android:layout_margin="0dp"
+                android:padding="8dp"
                 android:text="@string/Start"
                 android:textColor="@android:color/black"
                 android:textStyle="bold"
@@ -111,8 +115,7 @@
                 android:id="@+id/StartCalendar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/Margin_L"
-                android:background="@android:color/white"
+                android:layout_margin="0dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -124,15 +127,16 @@
         <android.support.constraint.ConstraintLayout
             android:id="@+id/EndLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
 
             <TextView
                 android:id="@+id/End"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/Margin_L"
+                android:layout_margin="0dp"
                 android:background="@android:color/white"
-                android:padding="@dimen/Padding_L"
+                android:padding="8dp"
                 android:text="@string/End"
                 android:textColor="@android:color/black"
                 android:textStyle="bold"
@@ -144,7 +148,7 @@
                 android:id="@+id/EndCalendar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/Margin_L"
+                android:layout_margin="0dp"
                 android:background="@android:color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -158,21 +162,21 @@
             layout="@layout/item_something"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/Margin_L"
+            android:layout_margin="8dp"
             tools:layout_editor_absoluteX="8dp" />
 
         <LinearLayout
             android:id="@+id/ButtonLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/Margin_L"
+            android:layout_margin="8dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/Confirm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/Margin_M"
+                android:layout_marginEnd="8dp"
                 android:layout_weight="1"
                 android:background="@android:color/white"
                 android:text="@string/Confirm" />
@@ -181,7 +185,6 @@
                 android:id="@+id/Cancle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/Margin_M"
                 android:layout_weight="1"
                 android:background="@android:color/white"
                 android:text="@string/Cancle" />

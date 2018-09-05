@@ -85,7 +85,7 @@ public class AddOrModifySomethingActivity extends AppCompatActivity implements V
                 noTermCheckBox.setChecked(!noTermCheckBox.isChecked());
                 break;
             case R.id.Confirm:
-                if(!noTermCheckBox.isChecked() && TimeHandler.clientToSystem(something.getStart()) > TimeHandler.clientToSystem(something.getEnd())) {
+                if(!noTermCheckBox.isChecked() && Database.clientToSystem(something.getStart()) > Database.clientToSystem(something.getEnd())) {
                     Toast.makeText(this, "Invalid Term", Toast.LENGTH_SHORT).show();
                     return;
                 }
@@ -114,10 +114,10 @@ public class AddOrModifySomethingActivity extends AppCompatActivity implements V
 
                 switch (action) {
                     case INSERT:
-                        DBHandler.insert(something);
+                        Database.insert(something);
                         break;
                     case MODIFY:
-                        DBHandler.modify(something);
+                        Database.modify(something);
                         break;
                 }
             case R.id.Cancle:

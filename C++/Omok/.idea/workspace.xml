@@ -12,42 +12,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1ed49e-10be-47ad-91a1-705ddfc4c92d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Android/Something/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/Algorithm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/Algorithm.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/androidTest/java/com/example/admin/something/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/AddOrModifySomethingActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/CalendarFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/DBHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/ListFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/MyReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/MyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/Other.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/OtherAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/OtherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/OtherHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/Something.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/TimeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/ViewPageFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_assignment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_calendar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_person.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_storage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/activity_add_or_modify_something.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_calendar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/item_other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/item_other_no_switch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/item_something.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/dimen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/test/java/com/example/admin/something/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/settings.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello World/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Console.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console.h" beforeDir="false" afterPath="$PROJECT_DIR$/Console.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Omok.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Omok.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Omok.h" beforeDir="false" afterPath="$PROJECT_DIR$/Omok.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OmokIO.h" beforeDir="false" afterPath="$PROJECT_DIR$/OmokIO.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OmokRule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OmokRule.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OmokRule.h" beforeDir="false" afterPath="$PROJECT_DIR$/OmokRule.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Renju.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Renju.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Renju.h" beforeDir="false" afterPath="$PROJECT_DIR$/Renju.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/Console.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/Console.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/Intent.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/Intent.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/Omok.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/Omok.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/OmokIO.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/OmokIO.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/OmokRule.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/OmokRule.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/Renju.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/Renju.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Omok.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Omok.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Omok.exe" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,20 +96,21 @@
     <session id="336969872">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="48" />
+          <entry key="cpp" value="49" />
           <entry key="h" value="44" />
           <entry key="txt" value="2" />
         </counts>
@@ -83,7 +119,7 @@
         <counts>
           <entry key="CMakeCache.txt" value="1" />
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="92" />
+          <entry key="ObjectiveC" value="93" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -103,10 +139,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Omok.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
+            <state relative-caret-position="325">
               <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
             </state>
           </provider>
@@ -115,7 +151,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Omok.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="2640">
               <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
             </state>
           </provider>
@@ -124,16 +160,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Console.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="1353">
               <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Console.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="891">
               <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
@@ -142,8 +178,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Intent.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="330">
               <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Intent.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -209,7 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,6 +270,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,18 +325,18 @@
       <workItem from="1535537222826" duration="7000" />
       <workItem from="1535541827372" duration="3703000" />
       <workItem from="1535546276231" duration="14000" />
-      <workItem from="1535700270689" duration="281000" />
+      <workItem from="1535700270689" duration="381000" />
+      <workItem from="1535706008828" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29365000" />
+    <option name="totallyTimeSpent" value="29480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3872483" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.39261746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,7 +347,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -342,13 +387,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Intent.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OmokIO.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -412,36 +450,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Omok.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
+        <state relative-caret-position="325">
           <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Intent.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Omok.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
+        <state relative-caret-position="2640">
           <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Console.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
+        <state relative-caret-position="1353">
           <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Console.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="891">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

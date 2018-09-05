@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Something</string>
+    <string name="Announce">Announce</string>
+    <string name="NoTerm">No Term</string>
+    <string name="Start">Start</string>
+    <string name="End">End</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Cancle">Cancle</string>
+    <string name="Term">Term</string>
+    <string name="Title">Title</string>
+    <string name="Explains">Explains</string>
+    <string name="Icon">Icon</string>
+    <string name="Modify">Modify</string>
+    <string name="Delete">Delete</string>
+</resources>

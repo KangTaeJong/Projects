@@ -13,41 +13,54 @@
   <component name="ChangeListManager">
     <list default="true" id="e07cd8e3-dedc-43ca-a15d-091713561c1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Android/Something/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/AddOrModifySomethingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/AddOrModifySomethingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/CalendarFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/CalendarFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/DBHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/ListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/ListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/MyReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/MyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/Other.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/OtherAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/OtherFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/OtherFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/OtherHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/Something.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/Something.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/TimeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/ViewPageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/ViewPageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_assignment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_calendar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_person.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_storage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/activity_add_or_modify_something.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/activity_add_or_modify_something.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_calendar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_calendar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/item_other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/item_other_no_switch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/item_something.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/item_something.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/dimen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello World/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Omok/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/Console.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/Console.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/Console.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/Console.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/Intent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/Intent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/Omok.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/Omok.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/Omok.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/Omok.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/OmokIO.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/OmokIO.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/OmokRule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/OmokRule.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/OmokRule.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/OmokRule.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/Renju.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/Renju.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/Renju.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/Renju.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/Console.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/Console.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/Intent.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/Intent.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/Omok.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/Omok.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/OmokIO.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/OmokIO.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/OmokRule.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/OmokRule.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/Renju.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/Renju.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/cmake-build-debug/CMakeFiles/Omok.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Omok/cmake-build-debug/Omok.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Omok/cmake-build-debug/Omok.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Hello World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Hello World/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Hello World/out/production/Hello World/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Hello World/out/production/Hello World/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/MySQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/MySQL/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,25 +74,26 @@
     <session id="569686061">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="309" />
+          <entry key="cpp" value="3816" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="309" />
+          <entry key="ObjectiveC" value="3816" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -118,8 +132,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -139,6 +153,12 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cout</find>
+      <find>temp</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -157,10 +177,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="1402" />
+    <option name="y" value="322" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,6 +204,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,32 +261,35 @@
       <workItem from="1535543121490" duration="1277000" />
       <workItem from="1535546295688" duration="31000" />
       <workItem from="1535700244332" duration="13000" />
+      <workItem from="1535706031392" duration="3044000" />
+      <workItem from="1535897401553" duration="3472000" />
+      <workItem from="1535979576088" duration="410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3094000" />
+    <option name="totallyTimeSpent" value="10020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.53120667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3281493" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3252841" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.328125" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3224432" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -298,8 +321,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="126">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

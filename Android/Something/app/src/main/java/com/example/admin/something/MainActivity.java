@@ -2,9 +2,7 @@ package com.example.admin.something;
 
 import android.Manifest;
 import android.content.Context;
-import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -12,15 +10,16 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSelectedListener {
-    private static final int PERMISSION_CODE = 1000;
+    private static final int PERMISSION_REQUEST_CODE = 1000;
+    public static Context context;
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    private ViewPagerAdapter adapter;
-
-    public static Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,11 +33,8 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
         tabLayout.addOnTabSelectedListener(this);
         tabLayout.setupWithViewPager(viewPager);
 
-        adapter = new ViewPagerAdapter(getSupportFragmentManager());
-
-        viewPager.setAdapter(adapter);
-
-        adapter.setTabLayoutIcon(tabLayout);
+        viewPager.setAdapter(new ViewPagerAdapter(getSupportFragmentManager()));
+        ((ViewPagerAdapter)viewPager.getAdapter()).setTabLayoutIcon(tabLayout);
     }
 
     @Override
@@ -50,22 +46,9 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
         }
     }
 
-    public void init () {
-        String[] permissions = {
-                Manifest.permission.READ_EXTERNAL_STORAGE,
-                Manifest.permission.WRITE_EXTERNAL_STORAGE
-        };
-
-        requestPermissions(permissions, PERMISSION_CODE);
-
-        DBHandler.init(this);
-        startService(new Intent(this, MyService.class));
-        context = this;
-    }
-
     @Override
     public void onTabSelected(TabLayout.Tab tab) {
-        viewPager.setCurrentItem(tab.getPosition());
+
     }
 
     @Override
@@ -78,32 +61,44 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
 
     }
 
+    private void init() {
+        String[] permissions = {
+                Manifest.permission.READ_EXTERNAL_STORAGE,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE
+        };
+
+        requestPermissions(permissions, PERMISSION_REQUEST_CODE);
+
+        context = this;
+        Database.init(this);
+    }
+
     public class ViewPagerAdapter extends FragmentPagerAdapter {
-        private ViewPageFragment[] fragments;
+        private ArrayList<ViewPageFragment> fragments;
 
-        public ViewPagerAdapter(FragmentManager fm) {
-            super(fm);
+        public ViewPagerAdapter(FragmentManager fragmentManager) {
+            super(fragmentManager);
 
-            fragments = new ViewPageFragment[3];
-            fragments[0] = new ListFragment();
-            fragments[1] = new CalendarFragment();
-            fragments[2] = new OtherFragment();
-        }
-
-        public void setTabLayoutIcon(TabLayout tabLayout) {
-            for(int i = 0;i < fragments.length;i++) {
-                tabLayout.getTabAt(i).setIcon(fragments[i].icon);
-            }
+            fragments = new ArrayList<>();
+            fragments.add(new ListFragment());
+            fragments.add(new CalendarFragment());
+            fragments.add(new OtherFragment());
         }
 
         @Override
         public Fragment getItem(int position) {
-            return fragments[position];
+            return fragments.get(position);
         }
 
         @Override
         public int getCount() {
-            return fragments.length;
+            return fragments.size();
+        }
+
+        public void setTabLayoutIcon(TabLayout tabLayout) {
+            for(int i = 0;i < fragments.size();i++) {
+                tabLayout.getTabAt(i).setIcon(fragments.get(i).getIcon());
+            }
         }
     }
 }

@@ -8,18 +8,13 @@ import android.os.IBinder;
 
 
 public class MyService extends Service {
-    public MyService() {
-
-    }
-
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Notification.Builder builder = new Notification.Builder(getApplicationContext(), "Something");
-        startForeground(1, builder.build());
+        startForeground(1, new Notification());
 
         IntentFilter filter = new IntentFilter();
 
-        filter.addAction(Intent.ACTION_POWER_CONNECTED);
+        filter.addAction(Intent.ACTION_BOOT_COMPLETED);
         filter.addAction(Intent.ACTION_SCREEN_OFF);
 
         registerReceiver(new MyReceiver(), filter);

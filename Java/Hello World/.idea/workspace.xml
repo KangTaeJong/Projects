@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fdd848e-38f0-4fea-967a-3c1d88c58f97" name="Default Changelist" comment="" />
+    <list default="true" id="7fdd848e-38f0-4fea-967a-3c1d88c58f97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/AddOrModifySomethingActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/CalendarFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/DBHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/ListFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/MyReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/MyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/Other.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/OtherAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/OtherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/OtherHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/Something.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/SomethingHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/TimeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/java/com/example/admin/something/ViewPageFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_assignment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_calendar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_person.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/drawable/ic_storage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/activity_add_or_modify_something.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_calendar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/fragment_other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/item_other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/item_other_no_switch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/layout/item_something.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/dimen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Something/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Something/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Algorithm/cmake-build-debug/Algorithm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Algorithm/cmake-build-debug/Algorithm.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Algorithm/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Algorithm/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Algorithm/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Algorithm/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Omok/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Omok/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello World/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello World/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySQL/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +64,13 @@
     <session id="-1348702231">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -31,12 +85,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="84" />
+          <entry key="java" value="163" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="84" />
+          <entry key="JAVA" value="163" />
         </counts>
       </usages-collector>
     </session>
@@ -46,8 +100,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+            <state>
               <folding>
                 <element signature="e#63#64#0" expanded="true" />
                 <element signature="e#112#113#0" expanded="true" />
@@ -64,6 +117,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -83,13 +139,16 @@
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535018587722" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535707229492" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -149,16 +208,19 @@
       <updated>1535018534206</updated>
       <workItem from="1535018537951" duration="51000" />
       <workItem from="1535020873592" duration="44000" />
+      <workItem from="1535707173045" duration="58000" />
+      <workItem from="1535796816562" duration="31000" />
+      <workItem from="1535972415267" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95000" />
+    <option name="totallyTimeSpent" value="234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -167,12 +229,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -197,11 +259,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        <state>
           <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
